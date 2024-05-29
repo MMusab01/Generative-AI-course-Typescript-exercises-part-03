@@ -1,0 +1,34 @@
+
+	Object Assignments
+
+Learning Objectives:
+
+In this assignment, you'll gain practical experience with TypeScript type aliases, a powerful Feature for defining objec et structures. By working with employee data, car details, and colorful T-shirts, you'll solidify your understanding of:
+• Type Aliases: Creating custom types to represent complex objects with specific properties
+• Nested Objects: Organizing data within objects using nested structures for hierarchical relationships.
+• Union Types: Restricting a property's value to a set of allowed options (e.g., "Manager", "Engineer", "Intern")
+• Optional Properties: Allowing for objects with missing properties without causing errors.
+• Code Clarity: Employing descriptive variable and function names, comments, and well- structured code to enhance readability and maintainability.
+
+
+The Assignment:
+This assignment is divided into three parts, each focusing on using type aliases to model real- world scenarios
+
+Part 1: Employee Data
+Challenge:
+1. Design a type alias named timpinywe to represent an employee object with properties like nane (string), department (string), and so (string).
+2. Include an optional nested object named contacts to hold phone and email information (if provided)
+3. Employ a union type for the is property to restrict it to "Manager", "Engineer", or "Intern"
+4. Make the skills property an optional array of strings for listing an employee's skills (if any)
+
+Part 2: Car Details
+Challenge:
+1. Design a type alias named Car to represent a car object.
+2. Include a nested object named engine within Car, containing a property named horsepower (mumber)
+3. Define a function named peshorsepower directly within the car type alias to retrieve the engine's horsepower.
+
+Part 3: Colorful T-Shirts
+Challenge:
+1. Design a type alias named Product to represent a T-shirt object with properties like nam (string), price (number), and one (string).
+2. Include a nested object named inventory within Product. This inventory object should have two properties: stock (number): Represents the number of T-shirts available. celerOptions (optional array of strings): Lists available colors (if any)
+3. Inside the inventory object, define a function named changeColor. This function accepts a new color string as an argument. When called, it should: Update the colur property of the Froduct object. Adjust the price based on the new color (implement your own logic, eg. increase by 10% for red, decrease by 5% for blue).
